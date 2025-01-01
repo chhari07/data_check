@@ -1,568 +1,61 @@
-[
+{
+  "recipes": [
     {
       "id": 1,
-      "name": "Classic Margherita Pizza",
-      "thumbnail": "https://example.com/images/margherita-pizza.jpg",
-      "tags": ["Vegetarian", "Quick Meals"],
-      "cookTime": "30 mins",
+      "name": "Butter Chicken",
+      "image": "images/butter_chicken.jpg",
+      "cuisine": "North Indian",
+      "type": "Non-Vegetarian",
+      "prepTime": 45,
+      "ingredients": ["Chicken", "Butter", "Tomato", "Cream", "Spices"],
+      "calories": 490,
+      "dietaryRestrictions": ["Gluten-Free"],
+      "difficulty": "Medium",
       "instructions": [
-        "Preheat the oven to 475°F (245°C).",
-        "Roll out the pizza dough to the desired size.",
-        "Spread a thin layer of tomato sauce on the dough.",
-        "Top with fresh mozzarella slices and basil leaves.",
-        "Drizzle olive oil and bake for 10-12 minutes."
+        "Marinate the chicken with yogurt and spices for 2 hours.",
+        "Cook marinated chicken in a pan until tender.",
+        "Prepare the butter-based tomato gravy and mix with cooked chicken."
       ],
-      "nutritionalInfo": {
-        "calories": 270,
-        "protein": "12g",
-        "carbs": "32g"
-      },
-      "servings": "Serves 4"
+      "description": "A rich and creamy tomato-based curry with tender chicken pieces.",
+      "tags": ["Dinner", "Special Occasion"]
     },
     {
       "id": 2,
-      "name": "Butter Chicken",
-      "thumbnail": "",
-      "tags": ["Non-Vegetarian", "Main Course"],
-      "cookTime": "45 mins",
+      "name": "Paneer Tikka",
+      "image": "images/paneer_tikka.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 30,
+      "ingredients": ["Paneer", "Bell Peppers", "Yogurt", "Spices"],
+      "calories": 300,
+      "dietaryRestrictions": ["Vegetarian", "Gluten-Free"],
+      "difficulty": "Easy",
       "instructions": [
-        "Marinate the chicken with yogurt, spices, and lemon juice for 1 hour.",
-        "Cook the chicken in a hot pan until lightly browned.",
-        "Prepare a tomato-based sauce with butter, cream, and spices.",
-        "Simmer the chicken in the sauce for 20 minutes."
+        "Cut paneer and vegetables into cubes.",
+        "Marinate paneer and vegetables in spiced yogurt.",
+        "Grill or bake until golden brown."
       ],
-      "nutritionalInfo": {
-        "calories": 480,
-        "protein": "25g",
-        "carbs": "12g"
-      },
-      "servings": "Serves 4"
+      "description": "A flavorful grilled dish with marinated paneer and vegetables.",
+      "tags": ["Starter", "Healthy"]
     },
     {
       "id": 3,
-      "name": "Paneer Tikka Masala",
-      "thumbnail": "https://example.com/images/paneer-tikka.jpg",
-      "tags": ["Vegetarian", "Main Course"],
-      "cookTime": "40 mins",
-      "instructions": [
-        "Marinate paneer cubes in yogurt, spices, and lemon juice.",
-        "Grill the paneer until lightly charred.",
-        "Prepare a rich tomato-based curry with spices and cream.",
-        "Add the grilled paneer cubes to the curry and cook for 10 minutes."
-      ],
-      "nutritionalInfo": {
-        "calories": 400,
-        "protein": "20g",
-        "carbs": "15g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 4,
-      "name": "Aloo Gobi",
-      "thumbnail": "https://example.com/images/aloo-gobi.jpg",
-      "tags": ["Vegetarian", "Side Dish"],
-      "cookTime": "30 mins",
-      "instructions": [
-        "Heat oil in a pan and sauté onions and ginger-garlic paste.",
-        "Add turmeric, coriander, and red chili powder.",
-        "Add potatoes and cauliflower florets and mix well.",
-        "Cover and cook on low heat until tender.",
-        "Garnish with fresh cilantro."
-      ],
-      "nutritionalInfo": {
-        "calories": 150,
-        "protein": "3g",
-        "carbs": "18g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 5,
       "name": "Masala Dosa",
-      "thumbnail": "https://example.com/images/masala-dosa.jpg",
-      "tags": ["Vegetarian", "Breakfast"],
-      "cookTime": "50 mins",
+      "image": "images/masala_dosa.jpg",
+      "cuisine": "South Indian",
+      "type": "Vegetarian",
+      "prepTime": 60,
+      "ingredients": ["Rice", "Lentils", "Potatoes", "Spices"],
+      "calories": 200,
+      "dietaryRestrictions": ["Vegetarian", "Vegan"],
+      "difficulty": "Hard",
       "instructions": [
-        "Prepare dosa batter using rice and urad dal.",
-        "Make a potato filling with onions, mustard seeds, and turmeric.",
-        "Spread the batter on a hot griddle to form a thin crepe.",
-        "Add the potato filling and fold the dosa.",
-        "Serve with coconut chutney and sambar."
+        "Soak rice and lentils, grind to make batter, and ferment overnight.",
+        "Prepare potato masala filling with spices.",
+        "Cook dosa on a hot griddle and fill with potato masala."
       ],
-      "nutritionalInfo": {
-        "calories": 300,
-        "protein": "8g",
-        "carbs": "45g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 6,
-      "name": "Chicken Biryani",
-      "thumbnail": "https://example.com/images/chicken-biryani.jpg",
-      "tags": ["Non-Vegetarian", "Main Course"],
-      "cookTime": "1 hr",
-      "instructions": [
-        "Marinate chicken with yogurt and spices for 2 hours.",
-        "Cook basmati rice until 70% done.",
-        "Layer rice and chicken in a pot with fried onions and saffron milk.",
-        "Cook on low heat (dum) for 30 minutes."
-      ],
-      "nutritionalInfo": {
-        "calories": 550,
-        "protein": "25g",
-        "carbs": "50g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 7,
-      "name": "Palak Paneer",
-      "thumbnail": "https://example.com/images/palak-paneer.jpg",
-      "tags": ["Vegetarian", "Main Course"],
-      "cookTime": "35 mins",
-      "instructions": [
-        "Blanch spinach and blend into a smooth puree.",
-        "Sauté onions, garlic, and ginger in a pan.",
-        "Add spices and the spinach puree.",
-        "Add paneer cubes and cook for 10 minutes."
-      ],
-      "nutritionalInfo": {
-        "calories": 200,
-        "protein": "12g",
-        "carbs": "10g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 8,
-      "name": "Dal Makhani",
-      "thumbnail": "https://example.com/images/dal-makhani.jpg",
-      "tags": ["Vegetarian", "Main Course"],
-      "cookTime": "1 hr",
-      "instructions": [
-        "Soak black lentils and kidney beans overnight.",
-        "Cook them in a pressure cooker with water and salt.",
-        "Prepare a rich tomato-based curry with cream and butter.",
-        "Add the cooked lentils and simmer for 30 minutes."
-      ],
-      "nutritionalInfo": {
-        "calories": 300,
-        "protein": "15g",
-        "carbs": "25g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 9,
-      "name": "Chole Bhature",
-      "thumbnail": "https://example.com/images/chole-bhature.jpg",
-      "tags": ["Vegetarian", "Main Course"],
-      "cookTime": "50 mins",
-      "instructions": [
-        "Cook chickpeas with spices and onion-tomato gravy.",
-        "Prepare a dough with maida, yogurt, and baking powder.",
-        "Roll out and deep fry to make bhature.",
-        "Serve hot with chole."
-      ],
-      "nutritionalInfo": {
-        "calories": 450,
-        "protein": "12g",
-        "carbs": "60g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 10,
-      "name": "Rasgulla",
-      "thumbnail": "https://example.com/images/rasgulla.jpg",
-      "tags": ["Vegetarian", "Dessert"],
-      "cookTime": "40 mins",
-      "instructions": [
-        "Prepare chenna by curdling milk.",
-        "Knead the chenna into a smooth dough and shape into balls.",
-        "Cook the balls in sugar syrup until they double in size.",
-        "Cool and serve chilled."
-      ],
-      "nutritionalInfo": {
-        "calories": 200,
-        "protein": "4g",
-        "carbs": "35g"
-      },
-      "servings": "Serves 6"
-    },
-    {
-      "id": 11,
-      "name": "Rajma Masala",
-      "thumbnail": "https://example.com/images/rajma-masala.jpg",
-      "tags": ["Vegetarian", "Main Course"],
-      "cookTime": "45 mins",
-      "instructions": [
-        "Soak kidney beans overnight and cook them until tender.",
-        "Prepare a tomato-based gravy with spices.",
-        "Add the cooked beans and simmer for 20 minutes."
-      ],
-      "nutritionalInfo": {
-        "calories": 280,
-        "protein": "12g",
-        "carbs": "35g"
-      },
-      "servings": "Serves 4"
-    },
-    {
-      "id": 12,
-      "name": "Kheer",
-      "thumbnail": "https://example.com/images/kheer.jpg",
-      "tags": ["Vegetarian", "Dessert"],
-      "cookTime": "40 mins",
-      "instructions": [
-        "Cook rice in milk until soft.",
-        "Add sugar, cardamom, and saffron.",
-        "Garnish with nuts and raisins."
-      ],
-      "nutritionalInfo": {
-        "calories": 250,
-        "protein": "6g",
-        "carbs": "40g"
-      },
-      "servings": "Serves 6"
-    },
-    [
-        {
-          "id": 13,
-          "name": "Pani Puri",
-          "thumbnail": "https://example.com/images/pani-puri.jpg",
-          "tags": ["Vegetarian", "Snack"],
-          "cookTime": "30 mins",
-          "instructions": [
-            "Prepare puris using semolina and deep-fry them.",
-            "Make a spicy and tangy water using tamarind, mint, and spices.",
-            "Prepare a potato and chickpea filling.",
-            "Assemble by stuffing the puris with filling and serving with flavored water."
-          ],
-          "nutritionalInfo": {
-            "calories": 150,
-            "protein": "5g",
-            "carbs": "20g"
-          },
-          "servings": "Serves 6"
-        },
-        {
-          "id": 14,
-          "name": "Dhokla",
-          "thumbnail": "https://example.com/images/dhokla.jpg",
-          "tags": ["Vegetarian", "Snack"],
-          "cookTime": "40 mins",
-          "instructions": [
-            "Prepare a batter using gram flour, yogurt, and spices.",
-            "Steam the batter until fluffy.",
-            "Temper with mustard seeds, curry leaves, and green chilies.",
-            "Cut into pieces and serve."
-          ],
-          "nutritionalInfo": {
-            "calories": 200,
-            "protein": "6g",
-            "carbs": "25g"
-          },
-          "servings": "Serves 6"
-        },
-        {
-          "id": 15,
-          "name": "Baingan Bharta",
-          "thumbnail": "https://example.com/images/baingan-bharta.jpg",
-          "tags": ["Vegetarian", "Main Course"],
-          "cookTime": "35 mins",
-          "instructions": [
-            "Roast eggplants until soft and peel the skin.",
-            "Mash the eggplants and cook with onions, tomatoes, and spices.",
-            "Garnish with fresh coriander and serve."
-          ],
-          "nutritionalInfo": {
-            "calories": 120,
-            "protein": "3g",
-            "carbs": "10g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 16,
-          "name": "Lassi",
-          "thumbnail": "https://example.com/images/lassi.jpg",
-          "tags": ["Vegetarian", "Drink"],
-          "cookTime": "10 mins",
-          "instructions": [
-            "Blend yogurt, sugar, and water until frothy.",
-            "Add a pinch of cardamom powder.",
-            "Serve chilled, garnished with nuts."
-          ],
-          "nutritionalInfo": {
-            "calories": 120,
-            "protein": "4g",
-            "carbs": "18g"
-          },
-          "servings": "Serves 2"
-        },
-        {
-          "id": 17,
-          "name": "Malai Kofta",
-          "thumbnail": "https://example.com/images/malai-kofta.jpg",
-          "tags": ["Vegetarian", "Main Course"],
-          "cookTime": "50 mins",
-          "instructions": [
-            "Prepare kofta balls using mashed potatoes, paneer, and spices, then deep-fry.",
-            "Make a rich gravy using tomatoes, cream, and cashews.",
-            "Add the kofta balls to the gravy before serving."
-          ],
-          "nutritionalInfo": {
-            "calories": 400,
-            "protein": "10g",
-            "carbs": "20g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 18,
-          "name": "Pav Bhaji",
-          "thumbnail": "https://example.com/images/pav-bhaji.jpg",
-          "tags": ["Vegetarian", "Snack"],
-          "cookTime": "40 mins",
-          "instructions": [
-            "Boil and mash vegetables like potatoes, peas, and carrots.",
-            "Cook the mashed vegetables with onions, tomatoes, and pav bhaji masala.",
-            "Serve hot with buttered pav (bread rolls)."
-          ],
-          "nutritionalInfo": {
-            "calories": 350,
-            "protein": "8g",
-            "carbs": "50g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 19,
-          "name": "Samosa",
-          "thumbnail": "https://example.com/images/samosa.jpg",
-          "tags": ["Vegetarian", "Snack"],
-          "cookTime": "1 hr",
-          "instructions": [
-            "Prepare a dough using all-purpose flour and water.",
-            "Make a filling with spiced mashed potatoes and peas.",
-            "Shape the dough into cones, fill them, and seal.",
-            "Deep-fry until golden and crisp."
-          ],
-          "nutritionalInfo": {
-            "calories": 250,
-            "protein": "5g",
-            "carbs": "30g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 20,
-          "name": "Kadai Paneer",
-          "thumbnail": "https://example.com/images/kadai-paneer.jpg",
-          "tags": ["Vegetarian", "Main Course"],
-          "cookTime": "30 mins",
-          "instructions": [
-            "Cook paneer cubes with bell peppers and onions in a spicy tomato-based gravy.",
-            "Add freshly ground coriander and red chilies for flavor.",
-            "Serve hot with naan or rice."
-          ],
-          "nutritionalInfo": {
-            "calories": 300,
-            "protein": "15g",
-            "carbs": "12g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 21,
-          "name": "Idli",
-          "thumbnail": "https://example.com/images/idli.jpg",
-          "tags": ["Vegetarian", "Breakfast"],
-          "cookTime": "25 mins",
-          "instructions": [
-            "Prepare a batter using fermented rice and urad dal.",
-            "Pour the batter into idli molds and steam for 10 minutes.",
-            "Serve hot with coconut chutney and sambar."
-          ],
-          "nutritionalInfo": {
-            "calories": 150,
-            "protein": "4g",
-            "carbs": "25g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 22,
-          "name": "Pongal",
-          "thumbnail": "https://example.com/images/pongal.jpg",
-          "tags": ["Vegetarian", "Breakfast"],
-          "cookTime": "30 mins",
-          "instructions": [
-            "Cook rice and moong dal together with spices.",
-            "Temper with ghee, curry leaves, and black pepper.",
-            "Garnish with cashews and serve hot."
-          ],
-          "nutritionalInfo": {
-            "calories": 200,
-            "protein": "6g",
-            "carbs": "30g"
-          },
-          "servings": "Serves 4"
-        }
-      ],[
-        {
-          "id": 23,
-          "name": "Aloo Paratha",
-          "thumbnail": "https://example.com/images/aloo-paratha.jpg",
-          "tags": ["Vegetarian", "Breakfast"],
-          "cookTime": "40 mins",
-          "instructions": [
-            "Prepare a dough using wheat flour, water, and a pinch of salt.",
-            "Make a spicy potato filling with boiled potatoes, spices, and coriander.",
-            "Roll out the dough, stuff with potato filling, and seal.",
-            "Cook on a tawa with ghee until golden brown."
-          ],
-          "nutritionalInfo": {
-            "calories": 300,
-            "protein": "8g",
-            "carbs": "40g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 24,
-          "name": "Hyderabadi Biryani",
-          "thumbnail": "https://example.com/images/hyderabadi-biryani.jpg",
-          "tags": ["Non-Vegetarian", "Main Course"],
-          "cookTime": "1 hr 30 mins",
-          "instructions": [
-            "Marinate chicken with yogurt, spices, and fried onions.",
-            "Cook partially boiled basmati rice with whole spices.",
-            "Layer the marinated chicken and rice, and cook on low heat.",
-            "Garnish with fried onions and fresh coriander."
-          ],
-          "nutritionalInfo": {
-            "calories": 450,
-            "protein": "25g",
-            "carbs": "50g"
-          },
-          "servings": "Serves 6"
-        },
-        {
-          "id": 25,
-          "name": "Gulab Jamun",
-          "thumbnail": "https://example.com/images/gulab-jamun.jpg",
-          "tags": ["Vegetarian", "Dessert"],
-          "cookTime": "1 hr",
-          "instructions": [
-            "Prepare a dough with khoya, flour, and milk.",
-            "Shape into small balls and deep-fry until golden brown.",
-            "Soak the fried balls in sugar syrup flavored with cardamom and rose water."
-          ],
-          "nutritionalInfo": {
-            "calories": 150,
-            "protein": "3g",
-            "carbs": "20g"
-          },
-          "servings": "Serves 6"
-        },
-        {
-          "id": 26,
-          "name": "Matar Paneer",
-          "thumbnail": "https://example.com/images/matar-paneer.jpg",
-          "tags": ["Vegetarian", "Main Course"],
-          "cookTime": "40 mins",
-          "instructions": [
-            "Cook paneer cubes and green peas in a spiced tomato-onion gravy.",
-            "Simmer until the peas are soft.",
-            "Garnish with fresh coriander and serve with rice or roti."
-          ],
-          "nutritionalInfo": {
-            "calories": 250,
-            "protein": "12g",
-            "carbs": "18g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 27,
-          "name": "Masala Dosa",
-          "thumbnail": "https://example.com/images/masala-dosa.jpg",
-          "tags": ["Vegetarian", "Breakfast"],
-          "cookTime": "1 hr",
-          "instructions": [
-            "Prepare dosa batter using fermented rice and urad dal.",
-            "Cook thin crepes on a tawa.",
-            "Make a potato masala filling with spices and onions.",
-            "Fill the dosa with potato masala and serve with chutney and sambar."
-          ],
-          "nutritionalInfo": {
-            "calories": 300,
-            "protein": "8g",
-            "carbs": "45g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 28,
-          "name": "Chole Bhature",
-          "thumbnail": "https://example.com/images/chole-bhature.jpg",
-          "tags": ["Vegetarian", "Main Course"],
-          "cookTime": "1 hr",
-          "instructions": [
-            "Cook chickpeas in a spiced tomato-based curry.",
-            "Prepare a dough for bhature using all-purpose flour and yogurt.",
-            "Deep-fry the bhature until puffed and golden.",
-            "Serve hot with chole, onion rings, and pickle."
-          ],
-          "nutritionalInfo": {
-            "calories": 400,
-            "protein": "10g",
-            "carbs": "55g"
-          },
-          "servings": "Serves 4"
-        },
-        {
-          "id": 29,
-          "name": "Rasgulla",
-          "thumbnail": "https://example.com/images/rasgulla.jpg",
-          "tags": ["Vegetarian", "Dessert"],
-          "cookTime": "1 hr",
-          "instructions": [
-            "Prepare chhena (cottage cheese) by curdling milk.",
-            "Knead the chhena and shape into balls.",
-            "Cook the balls in sugar syrup until soft and spongy."
-          ],
-          "nutritionalInfo": {
-            "calories": 180,
-            "protein": "5g",
-            "carbs": "25g"
-          },
-          "servings": "Serves 6"
-        },
-        {
-          "id": 30,
-          "name": "Vegetable Pulao",
-          "thumbnail": "https://example.com/images/vegetable-pulao.jpg",
-          "tags": ["Vegetarian", "Main Course"],
-          "cookTime": "40 mins",
-          "instructions": [
-            "Cook basmati rice with mixed vegetables and whole spices.",
-            "Sauté with onions, ginger, and garlic.",
-            "Garnish with fried onions and serve hot."
-          ],
-          "nutritionalInfo": {
-            "calories": 250,
-            "protein": "6g",
-            "carbs": "40g"
-          },
-          "servings": "Serves 4"
-        }
-      ]
-      
-      
+      "description": "A crispy rice crepe filled with spiced potato mixture.",
+      "tags": ["Breakfast", "Traditional"]
+    }
   ]
-  
+}
