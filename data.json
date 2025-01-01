@@ -56,6 +56,235 @@
       ],
       "description": "A crispy rice crepe filled with spiced potato mixture.",
       "tags": ["Breakfast", "Traditional"]
+    },
+    {
+      "id": 4,
+      "name": "Hyderabadi Biryani",
+      "image": "images/hyderabadi_biryani.jpg",
+      "cuisine": "South Indian",
+      "type": "Non-Vegetarian",
+      "prepTime": 90,
+      "ingredients": ["Basmati Rice", "Chicken", "Yogurt", "Spices", "Saffron"],
+      "calories": 500,
+      "dietaryRestrictions": ["Gluten-Free"],
+      "difficulty": "Hard",
+      "instructions": [
+        "Marinate chicken with spices and yogurt.",
+        "Partially cook rice with whole spices.",
+        "Layer rice and chicken, cook on low heat until done."
+      ],
+      "description": "A fragrant and spicy rice dish with layers of chicken and saffron rice.",
+      "tags": ["Lunch", "Special Occasion"]
+    },
+    {
+      "id": 5,
+      "name": "Chole Bhature",
+      "image": "images/chole_bhature.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 60,
+      "ingredients": ["Chickpeas", "Flour", "Spices", "Yogurt"],
+      "calories": 450,
+      "dietaryRestrictions": ["Vegetarian"],
+      "difficulty": "Medium",
+      "instructions": [
+        "Soak and boil chickpeas.",
+        "Prepare spicy chickpea curry.",
+        "Make and fry bhature until golden."
+      ],
+      "description": "A popular North Indian dish with spicy chickpeas and deep-fried bread.",
+      "tags": ["Breakfast", "Street Food"]
+    },
+    {
+      "id": 6,
+      "name": "Palak Paneer",
+      "image": "images/palak_paneer.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 30,
+      "ingredients": ["Spinach", "Paneer", "Cream", "Spices"],
+      "calories": 280,
+      "dietaryRestrictions": ["Vegetarian", "Gluten-Free"],
+      "difficulty": "Easy",
+      "instructions": [
+        "Blanch spinach and blend to a puree.",
+        "Cook paneer in spinach gravy with spices.",
+        "Add cream and serve hot."
+      ],
+      "description": "A creamy and nutritious spinach-based curry with paneer.",
+      "tags": ["Lunch", "Healthy"]
+    },
+    {
+      "id": 7,
+      "name": "Idli Sambar",
+      "image": "images/idli_sambar.jpg",
+      "cuisine": "South Indian",
+      "type": "Vegetarian",
+      "prepTime": 50,
+      "ingredients": ["Rice", "Lentils", "Vegetables", "Spices"],
+      "calories": 150,
+      "dietaryRestrictions": ["Vegetarian", "Vegan"],
+      "difficulty": "Medium",
+      "instructions": [
+        "Prepare idli batter by fermenting rice and lentils.",
+        "Steam idlis until soft.",
+        "Cook sambar with vegetables and spices."
+      ],
+      "description": "Soft rice cakes served with a spicy lentil soup.",
+      "tags": ["Breakfast", "Healthy"]
+    },
+    {
+      "id": 8,
+      "name": "Rogan Josh",
+      "image": "images/rogan_josh.jpg",
+      "cuisine": "North Indian",
+      "type": "Non-Vegetarian",
+      "prepTime": 90,
+      "ingredients": ["Lamb", "Yogurt", "Spices", "Onions", "Tomatoes"],
+      "calories": 400,
+      "dietaryRestrictions": ["Gluten-Free"],
+      "difficulty": "Hard",
+      "instructions": [
+        "Marinate lamb with spices and yogurt.",
+        "Cook onions and tomatoes with spices to make gravy.",
+        "Simmer lamb in the gravy until tender."
+      ],
+      "description": "A rich and aromatic lamb curry from Kashmir.",
+      "tags": ["Dinner", "Special Occasion"]
+    },
+    {
+      "id": 9,
+      "name": "Aloo Paratha",
+      "image": "images/aloo_paratha.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 40,
+      "ingredients": ["Potatoes", "Flour", "Spices", "Butter"],
+      "calories": 350,
+      "dietaryRestrictions": ["Vegetarian"],
+      "difficulty": "Easy",
+      "instructions": [
+        "Prepare spiced potato filling.",
+        "Roll out dough, stuff with filling, and seal.",
+        "Cook on a griddle with butter until golden."
+      ],
+      "description": "A stuffed Indian bread with spiced potato filling.",
+      "tags": ["Breakfast", "Comfort Food"]
+    },
+    {
+      "id": 10,
+      "name": "Pani Puri",
+      "image": "images/pani_puri.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 20,
+      "ingredients": ["Semolina", "Potatoes", "Chickpeas", "Spices", "Tamarind"],
+      "calories": 150,
+      "dietaryRestrictions": ["Vegetarian", "Vegan"],
+      "difficulty": "Medium",
+      "instructions": [
+        "Prepare puris using semolina.",
+        "Make spicy tamarind water.",
+        "Stuff puris with potatoes, chickpeas, and tamarind water."
+      ],
+      "description": "A popular street food with crispy puris and spicy tangy filling.",
+      "tags": ["Snack", "Street Food"]
+    },
+    {
+      "id": 11,
+      "name": "Chicken Tikka",
+      "image": "images/chicken_tikka.jpg",
+      "cuisine": "North Indian",
+      "type": "Non-Vegetarian",
+      "prepTime": 45,
+      "ingredients": ["Chicken", "Yogurt", "Spices", "Lemon Juice"],
+      "calories": 350,
+      "dietaryRestrictions": ["Gluten-Free"],
+      "difficulty": "Medium",
+      "instructions": [
+        "Marinate chicken with yogurt, spices, and lemon juice.",
+        "Grill or bake until golden brown.",
+        "Serve with mint chutney."
+      ],
+      "description": "A smoky and flavorful grilled chicken dish.",
+      "tags": ["Starter", "Healthy"]
+    },
+    {
+      "id": 12,
+      "name": "Vegetable Pulao",
+      "image": "images/vegetable_pulao.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 30,
+      "ingredients": ["Rice", "Mixed Vegetables", "Spices", "Ghee"],
+      "calories": 250,
+      "dietaryRestrictions": ["Vegetarian", "Gluten-Free"],
+      "difficulty": "Easy",
+      "instructions": [
+        "Cook rice with whole spices.",
+        "Saute vegetables in ghee and mix with rice.",
+        "Serve hot with raita."
+      ],
+      "description": "A fragrant and colorful rice dish with vegetables.",
+      "tags": ["Lunch", "Healthy"]
+    },
+    {
+      "id": 13,
+      "name": "Fish Curry",
+      "image": "images/fish_curry.jpg",
+      "cuisine": "South Indian",
+      "type": "Non-Vegetarian",
+      "prepTime": 40,
+      "ingredients": ["Fish", "Coconut", "Spices", "Tamarind"],
+      "calories": 300,
+      "dietaryRestrictions": ["Gluten-Free"],
+      "difficulty": "Medium",
+      "instructions": [
+        "Marinate fish with turmeric and salt.",
+        "Prepare coconut-based curry with tamarind.",
+        "Cook fish in the curry until tender."
+      ],
+      "description": "A tangy and flavorful fish curry with coconut and tamarind.",
+      "tags": ["Lunch", "Seafood"]
+    },
+    {
+      "id": 14,
+      "name": "Matar Paneer",
+      "image": "images/matar_paneer.jpg",
+      "cuisine": "North Indian",
+      "type": "Vegetarian",
+      "prepTime": 35,
+      "ingredients": ["Paneer", "Green Peas", "Tomatoes", "Spices"],
+      "calories": 320,
+      "dietaryRestrictions": ["Vegetarian", "Gluten-Free"],
+      "difficulty": "Easy",
+      "instructions": [
+        "Cook tomatoes with spices to make gravy.",
+        "Add green peas and paneer to the gravy.",
+        "Simmer until peas are tender."
+      ],
+      "description": "A classic vegetarian curry with paneer and green peas.",
+      "tags": ["Dinner", "Comfort Food"]
+    },
+    {
+      "id": 15,
+      "name": "Dhokla",
+      "image": "images/dhokla.jpg",
+      "cuisine": "Gujarat",
+      "type": "Vegetarian",
+      "prepTime": 25,
+      "ingredients": ["Gram Flour", "Yogurt", "Spices", "Mustard Seeds"],
+      "calories": 200,
+      "dietaryRestrictions": ["Vegetarian", "Gluten-Free"],
+      "difficulty": "Easy",
+      "instructions": [
+        "Prepare batter with gram flour and yogurt.",
+        "Steam the batter until fluffy.",
+        "Temper with mustard seeds and curry leaves."
+      ],
+      "description": "A light and spongy steamed snack from Gujarat.",
+      "tags": ["Snack", "Healthy"]
     }
+    
   ]
 }
