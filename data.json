@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Butter Chicken",
-      "image": "images/butter_chicken.jpg",
+      "image": "https://feelgoodfoodie.net/wp-content/uploads/2023/04/Easy-Butter-Chicken-11.jpg",
       "cuisine": "North Indian",
       "type": "Non-Vegetarian",
       "prepTime": 45,
@@ -22,7 +22,8 @@
     {
       "id": 2,
       "name": "Paneer Tikka",
-      "image": "images/paneer_tikka.jpg",
+      "image": "    https://www.cookwithmanali.com/wp-content/uploads/2015/07/Restaurant-Style-Recipe-Paneer-Tikka.jpg   ",
+   
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 30,
@@ -41,7 +42,7 @@
     {
       "id": 3,
       "name": "Masala Dosa",
-      "image": "images/masala_dosa.jpg",
+      "image": "https://revi.b-cdn.net/wp-content/uploads/2017/03/masala-dosa-2-360x360.jpg",
       "cuisine": "South Indian",
       "type": "Vegetarian",
       "prepTime": 60,
