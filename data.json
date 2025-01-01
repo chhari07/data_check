@@ -61,7 +61,7 @@
     {
       "id": 4,
       "name": "Hyderabadi Biryani",
-      "image": "images/hyderabadi_biryani.jpg",
+      "image": "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg",
       "cuisine": "South Indian",
       "type": "Non-Vegetarian",
       "prepTime": 90,
@@ -80,7 +80,7 @@
     {
       "id": 5,
       "name": "Chole Bhature",
-      "image": "images/chole_bhature.jpg",
+      "image": "https://minimalistbaker.com/wp-content/uploads/2016/02/AMAZING-Chana-Masala-made-in-1-Pot-So-healthy-flavorful-and-delicious-vegan-glutenfree-chanamasala-recipe-minimalistbaker-768x1152.jpg",
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 60,
@@ -99,7 +99,7 @@
     {
       "id": 6,
       "name": "Palak Paneer",
-      "image": "images/palak_paneer.jpg",
+      "image": "https://www.chefajaychopra.com/assets/img/recipe/1-1666433552palakpaneer1webp.webp",
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 30,
@@ -118,7 +118,7 @@
     {
       "id": 7,
       "name": "Idli Sambar",
-      "image": "images/idli_sambar.jpg",
+      "image": "https://farm8.staticflickr.com/7099/7308949626_7543d58a69_o.jpg",
       "cuisine": "South Indian",
       "type": "Vegetarian",
       "prepTime": 50,
@@ -137,7 +137,7 @@
     {
       "id": 8,
       "name": "Rogan Josh",
-      "image": "images/rogan_josh.jpg",
+      "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Shaheen_Ali/Kashmiri_Rogan_Josh.jpg",
       "cuisine": "North Indian",
       "type": "Non-Vegetarian",
       "prepTime": 90,
@@ -156,7 +156,7 @@
     {
       "id": 9,
       "name": "Aloo Paratha",
-      "image": "images/aloo_paratha.jpg",
+      "image": "https://images.slurrp.com/prod/recipe_images/transcribe/ankush/Aloo-Paratha.webp?impolicy=slurrp-20210601&width=1200&height=675",
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 40,
@@ -175,7 +175,7 @@
     {
       "id": 10,
       "name": "Pani Puri",
-      "image": "images/pani_puri.jpg",
+      "image": "https://static01.nyt.com/images/2024/01/17/multimedia/ND-Pani-Puri-mflg/ND-Pani-Puri-mflg-jumbo.jpg?quality=75&auto=webp",
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 20,
@@ -194,7 +194,7 @@
     {
       "id": 11,
       "name": "Chicken Tikka",
-      "image": "images/chicken_tikka.jpg",
+      "image": "https://sinfullyspicy.com/wp-content/uploads/2014/03/1200-by-1800-images-2-1024x1536.jpg",
       "cuisine": "North Indian",
       "type": "Non-Vegetarian",
       "prepTime": 45,
@@ -213,7 +213,7 @@
     {
       "id": 12,
       "name": "Vegetable Pulao",
-      "image": "images/vegetable_pulao.jpg",
+      "image": " https://www.indianveggiedelight.com/wp-content/uploads/2022/10/veg-pulao-1152x1536.jpg    ",
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 30,
@@ -232,7 +232,7 @@
     {
       "id": 13,
       "name": "Fish Curry",
-      "image": "images/fish_curry.jpg",
+      "image": " https://www.licious.in/blog/wp-content/uploads/2022/03/shutterstock_1891229335-min.jpg      ",
       "cuisine": "South Indian",
       "type": "Non-Vegetarian",
       "prepTime": 40,
@@ -251,7 +251,7 @@
     {
       "id": 14,
       "name": "Matar Paneer",
-      "image": "images/matar_paneer.jpg",
+      "image": " https://www.cookwithmanali.com/wp-content/uploads/2023/06/Easy-Matar-Paneer-1014x1536.jpg  ",
       "cuisine": "North Indian",
       "type": "Vegetarian",
       "prepTime": 35,
@@ -270,7 +270,7 @@
     {
       "id": 15,
       "name": "Dhokla",
-      "image": "images/dhokla.jpg",
+      "image": " https://www.cookwithnabeela.com/wp-content/uploads/2024/02/KhamanDhokla1.webp",
       "cuisine": "Gujarat",
       "type": "Vegetarian",
       "prepTime": 25,
